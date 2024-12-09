@@ -5,9 +5,11 @@
 
 <body>
     <div class="container">
-        <h2>Sentiment Score {{r}}</h2>
-        <form action="/main" method="post">
-            <p><input type="submit" value="Main"></p>
+        <h2>Generative AI by Gemini</h2>
+        <p>please enter text:</p>
+        <form action="/genAI_result" method="post">
+            <p><input type="text" name="q"></p>
+            <p><input type="submit" value="Enter"></p>
         </form>
     </div>
 </body>
